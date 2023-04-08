@@ -14,17 +14,17 @@ const SetKey = () => {
   return (
     <Stack spacing={4}>
       <Text>
-        To use Taxy, you'll need to enter your OpenAI API key. This is saved in
-        Chrome storage, not on our servers. Once you have an OpenAI account you
-        can create a key{' '}
+        Para usar o Taxy, você precisará inserir sua chave de API OpenAI. Isso é salvo em
+        Armazenamento do Chrome, não em nossos servidores. Depois de ter uma conta OpenAI, você
+        pode criar uma chave{' '}
         <Link href="https://beta.openai.com/account/api-keys" color="blue.500">
-          here
+          aqui
         </Link>
         .
       </Text>
       <Input
         value={candidateKey}
-        placeholder="OpenAI API Key"
+        placeholder="Inserir aqui sua chave API"
         type={'password'}
         onChange={(e) => setCandidateKey(e.target.value)}
       />
@@ -36,7 +36,7 @@ const SetKey = () => {
         colorScheme="blue"
         disabled={!candidateKey}
       >
-        Save
+        Salvar
       </Button>
     </Stack>
   );

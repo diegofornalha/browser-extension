@@ -24,7 +24,7 @@ const App = ({ showIntro }: { showIntro?: boolean }) => {
           />
 
           <Heading as="h1" size="lg" flex={1}>
-            Taxy AI
+            Cadence GPT 4
           </Heading>
           <Box>
             <ModelDropdown />

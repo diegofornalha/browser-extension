@@ -1,1 +1,1 @@
-chrome.devtools.panels.create('Taxy AI', 'icon-34.png', 'panel.html');
+chrome.devtools.panels.create('Cadence GPT 4', 'icon-34.png', 'panel.html');

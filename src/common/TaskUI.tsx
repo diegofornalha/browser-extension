@@ -48,7 +48,7 @@ const TaskUI = () => {
     <>
       <Textarea
         autoFocus
-        placeholder="Taxy uses OpenAI's GPT-4 API to perform actions on the current page. Try telling it to sign up for a newsletter, or to add an item to your cart."
+        placeholder="Taxy usa a API GPT-4 da OpenAI para executar ações na página atual. Tente dizer a ele para se inscrever em um boletim informativo ou adicionar um item ao carrinho."
         value={state.instructions || ''}
         disabled={taskInProgress}
         onChange={(e) => state.setInstructions(e.target.value)}
